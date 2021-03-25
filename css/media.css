@@ -1,0 +1,147 @@
+
+@media only screen and (max-width: 620px){
+    p.type-writer {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      font-weight: bold;
+     
+    }
+  }
+
+ @media (max-width: 770px){
+    .parent-box .img-box-sticky{
+        position: static;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 980px){
+    .section-3 .boxes-main{
+        justify-content: center;
+    }
+
+}
+@media (max-width : 987px){
+    .section-last .counter-box{
+        width: 200px;
+    }
+}
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+
+  @media(max-width: 600px){
+    .banner-content .navbar{
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 700px){
+    .company-section-1{
+      padding: 0px 20px 100px 20px;
+    }
+  }
+
+
+  @media (max-width: 500px){
+   
+  .banner-content .banner-btn{
+    flex-direction: column;
+    align-items: center;
+   }
+   .banner-content .banner-btn a{
+    margin-right: 0;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 10px;
+    }
+    .type-writer {
+      font-size: 1rem;
+    }
+    .bannar-navigation{
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 15px;
+     bottom: 50px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .swiper-slide .review{
+    padding: 10px !important;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .swiper-slide .review p{
+    margin-bottom: 0;
+  }
+  
+  .swiper-slide .review::before{
+   
+    top: 0px;
+    left: 0px;
+    font-size: 10px;
+  }
+  
+  /* Rigth Quote */
+  .swiper-slide .review::after{
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+  }
+  .section-5 .client-detail{
+    padding: 0px;
+  }
+  .section-5 .swiper-slide .client-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .section-5 .client-name-location h3{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 0px;
+  }
+  .banner-content .navbar-brand img{
+    width: 100px;
+}
+  }
+
+  @media (max-width : 550px){
+    .section-2{
+      padding: 150px 0px;
+  }
+    .section-6 .circle{
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      animation: none;
+    }
+    .section-6-logo{
+       display: none;
+    }
+    .section-6 .circle .box{
+      width: 100px;
+      height: 100px;
+      border-radius: 0;
+      position: static;
+      animation: none;
+      margin: 5px;
+    }
+  }
+  
